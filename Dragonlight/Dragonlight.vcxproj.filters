@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{05900eed-4e96-443f-9bec-fa012593da8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Buffer">
+      <UniqueIdentifier>{83eb4763-c2d6-4efc-a594-7e21381f69ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Vulkan">
+      <UniqueIdentifier>{876a1523-c1e8-4a92-bc4b-d77163c3a41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\VertexData">
+      <UniqueIdentifier>{5c158581-d1b7-4b7a-a73b-a7a51a782335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\SwapChain">
+      <UniqueIdentifier>{eb8a2961-48bc-4d26-950f-1386c505204e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Renderer">
+      <UniqueIdentifier>{6939714a-1bef-4edb-b6f0-c5fa962b1897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\CommandPool">
+      <UniqueIdentifier>{ba7d625d-6e63-4259-be3c-4090c7a08fde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>Source Files\Graphics\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="MyVulkan.cpp">
+      <Filter>Source Files\Graphics\Vulkan</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexData.cpp">
+      <Filter>Source Files\Graphics\VertexData</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>Source Files\Graphics\SwapChain</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandPool.cpp">
+      <Filter>Source Files\Graphics\CommandPool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyWindow.hpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.hpp">
+      <Filter>Source Files\Graphics\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="MyVulkan.hpp">
+      <Filter>Source Files\Graphics\Vulkan</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.hpp">
+      <Filter>Source Files\Graphics\VertexData</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapChain.hpp">
+      <Filter>Source Files\Graphics\SwapChain</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.hpp">
+      <Filter>Source Files\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandPool.hpp">
+      <Filter>Source Files\Graphics\CommandPool</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
