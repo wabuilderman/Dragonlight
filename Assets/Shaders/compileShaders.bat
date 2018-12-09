@@ -20,8 +20,8 @@
 
 :: ============================= FUNCTIONS ================================== ::
 :Main
-  SET compiler="C:/VulkanSDK/1.1.85.0/Bin32/glslangValidator.exe"
-  SET outDir="./Build"
+  set compiler="C:/VulkanSDK/1.1.92.1/Bin32/glslangValidator.exe"
+  set outDir="./Build"
 
   echo Compiling Shader: "shader"
   call :Compile "shader"
